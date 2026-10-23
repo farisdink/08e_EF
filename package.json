@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check-updates": "ncu --cooldown 3d",
+    "demo-npx": "npx cowsay \"Poster Walk 06e-B!\""
   },
   "keywords": [],
   "author": "",
